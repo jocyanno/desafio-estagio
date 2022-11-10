@@ -1,24 +1,23 @@
- ![SoftMakers](https://www.softmakers.com.br/assets/img/logotipo14xxhdpi.png)
+## Projeto Desenvolvido com React.JS, NodeJS e MYSQL
 
-# Desafio - Desenvolvedor Fullstack - Estágio
-Seja bem-vindo! Este desafio foi projetado para avaliar a sua capacidade técnica como candidato ao cargo proposto.
+para rodar a aplicação basta entrar no diretorio "front" e rodar:
+### `npm start`
 
-## Instruções
-- Faça um fork deste repositório;
-- O conjunto mínimo de tecnologias a serem utilizadas são: HTML, CSS e JS;
-- Crie um passo a passo de como rodar a sua aplicação;
-- Após finalizar, submeta um pull request com um comentário informando o seu e-mail de contato e aguarde nossa avaliação.
+como também entrar no diretorio "api" e rodar o mesmo comando, onde o node está escutando na porta "localhost:8800".
+### `npm start`
 
-## Proposta
-Você deverá desenvolver um projeto com a finalidade de que seja possível listar, visualizar, criar, editar e excluir carros de uma locadora de automóvel.
+é necessário a criação das tabelas no MYSQL onde o ID é AutoIncrement, onde neste projeto foi configurado para tabela crud. arquivo de conexão do banco de dados está localizado dentro da pasta api/db.js.
 
-**Observações:**
-> - Cada carro precisa ter um identificador único, modelo, marca, tipo (hatch, sedan ou SUV) e situação (disponível ou indisponível). Todos os campos são do formulário são obrigatório.
+## Blibliotecas utilizadas
 
-## Diferenciais
-Serão considerados diferenciais:
+## ReactJS
+-styled-components
+-React Hooks
+-axios
+-toastify
 
-- O uso de PHP ou Node.js como linguagem sendo utilizada no lado do servidor;
-- O uso de qualquer banco de dados para armazenar os dados da sua aplicação;
-- O uso de qualquer framework;
-- Boas práticas de escrita de código (código limpo, padrões de arquitetura, etc.).
+## NodeJS
+-cors
+-nodemon
+-express
+-mysql
